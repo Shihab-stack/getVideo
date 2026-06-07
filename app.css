@@ -1,0 +1,109 @@
+/* --- Global Resets & Body Styles --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333333; /* Dark gray for comfortable reading */
+    background-color: #fffaf5; /* Very soft, warm white cream */
+    margin: 0;
+    padding: 0;
+}
+
+/* --- Layout Container --- */
+/* Centers the content and keeps it from stretching too wide */
+main, header, aside, footer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* --- Header Section --- */
+header {
+    background-color: #ff6f00; /* Rich, vibrant orange */
+    color: #ffffff; /* Crisp white text */
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 5px solid #e65100; /* Darker orange accent border */
+}
+
+header h1 {
+    margin: 0 0 10px 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0 0 20px 0;
+    font-style: italic;
+    opacity: 0.9;
+}
+
+/* --- Navigation --- */
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #e65100; /* Darker orange on hover */
+    border-radius: 4px;
+}
+
+/* --- Blog Posts (Articles) --- */
+article {
+    background-color: #ffffff; /* Pure white background for posts */
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(230, 81, 0, 0.05); /* Very subtle orange-tinted shadow */
+    border-left: 5px solid #ff8f00; /* Amber/Orange accent line on the left */
+}
+
+article h2 {
+    color: #e65100; /* Deep orange for headings */
+    margin-top: 0;
+}
+
+article small {
+    color: #ff6f00;
+    font-weight: 600;
+}
+
+article a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #ff6f00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+article a:hover {
+    color: #e65100;
+    text-decoration: underline;
+}
+
+/* --- Sidebar (Aside) --- */
+aside {
+    background-color: #ffe0b2; /* Soft, light orange background */
+    border: 1px solid #ffb74d;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+aside h3 {
+    color: #e65100;
+    margin-top: 0;
+}
+
+/* --- Footer --- */
+footer {
+    text-align: center;
+    background-color: #333333; /* Dark gray to ground the design */
+    color: #ffe0b2; /* Light orange text */
+    padding: 20px;
+    font-size: 0.9rem;
+}
